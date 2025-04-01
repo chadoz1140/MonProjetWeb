@@ -30,7 +30,7 @@ body {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    padding: 10px 40px; /* Ajoute un peu d'espace */
+    padding: 10px 40px; 
     transition: color 0.3s ease-in-out; /* Effet fluide */
 }
 
@@ -42,28 +42,27 @@ body {
     color: white;
     font-size: 100px;
     text-align: center;
-    margin: 0 auto; /* Assure un centrage correct */
+    margin: 0 auto; 
 }
 
 /* service */
 .service{
-   display: flex;
-   justify-content: space-between;
-   margin: 50px;
+   display: block;
 }
 
 .service-item{
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     color: white;
+    
+
 }
 
 .delivery-icon{
     display: flex;
     font-size: 80px;
-    color: rgb(127, 255, 133);
-    
+    color: rgb(241, 250, 110); 
 }
 
 .service-para{
@@ -227,7 +226,6 @@ body {
 }
 
 /* nos chaussures */
-
 
 
 
