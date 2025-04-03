@@ -52,22 +52,22 @@ nav a {
     margin: 0 auto;
 }
 
-.menu-accueil:hover{
+.menu-accueil:hover, .presentation{
     border-top: 5px solid rgb(8, 73, 117);
-    background-color: rgb(68, 195, 204);
+    background-color: rgba(68, 195, 204, 0.363);
 }
 
-.menu-exp:hover{
+.menu-exp:hover, .parcours{
     border-top: 5px solid rgb(4, 100, 41);
-    background-color: rgb(68, 204, 125);
+    background-color: rgba(68, 204, 125, 0.445);
 }
 
-.menu-loisir:hover{
+.menu-loisir:hover, .competence{
     border-top: 5px solid rgb(71, 2, 2);
-    background-color: rgba(204, 88, 68, 0.644);
+    background-color: rgba(204, 88, 68, 0.404);
 }
 
-.menu-contact:hover{
+.menu-contact:hover, .recommendation{
     border-top:  5px solid rgb(67, 67, 68);
     background-color: rgb(114, 118, 119);
 }
@@ -76,7 +76,38 @@ nav li:hover a{
     padding: 15px 30px 20px 30px;
 }
 
-@media screen and(max-width: 780px){
+.section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec{
+    margin: 0px 10%;
+}
+
+.gauche{
+    float: left;
+    width: 30%;
+}
+
+.droite{
+    float: left;
+    width: 70%;
+}
+
+.comp-gauche, .comp-droite, .sous-gauche, .sous-droite{
+    width: 50%;
+    float: left;
+}
+
+.sec::after, .exp::after, .reco::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 780px){
     header{
         height: 50px;
     }
