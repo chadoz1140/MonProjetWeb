@@ -32,13 +32,13 @@
             <section class="presentation">
                 <div class="sec">
                     <h1>À propos de moi</h1>
-                </div>
-                <div class="gauche">
-                    <img src="Image/personne2.webp">
-                </div>
-                <div class="droite">
-                    <p>Bonjour, Je m'appelle Nasser Diogo Caetano Hodroj, je suis agé de 24 ans et étudiant à l'EPFC.</p>
-                    <p>Je suis actuellement en Bachelier informatique en première année</p>
+                    <div class="gauche">
+                        <img src="Image/personne2.webp"
+                    </div>
+                    <div class="droite">
+                        <p>Bonjour, Je m'appelle Nasser Diogo Caetano Hodroj, je suis agé de 24 ans et étudiant à l'EPFC.</p>
+                        <p>Je suis actuellement en Bachelier informatique en première année</p>
+                    </div>
                 </div>
             </section>
             <section class="parcours">
@@ -77,7 +77,8 @@
                             <h3>Étudiant secondaire - IEJ</h3>
                             <p>Étudiant en option science-économique à l'Institut Enfant Jésus</p>
                         </div>
-                </div>
+                    </div>
+                </div>    
             </section>
             <section  class="competence">
                 <h1>Compétence et niveau</h1>
@@ -113,14 +114,6 @@
 
                     </div>
                 </div>
-            </section>
-            <section class="recommendation ">
-                <div class="sec">
-                    <div class="reco">
-                        
-                    </div>
-                </div>
-                
             </section>
         </article>
         <footer>
