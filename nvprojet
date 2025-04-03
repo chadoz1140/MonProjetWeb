@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Nasser Diogo Caetano</h1>
+        </header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li class="menu-accueil">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="exp-pro.html">Expériences professionnelles</a>
+                    </li>
+                    <li class="menu-loisir">
+                        <a href="loisir.html">Loisirs</a>
+                    </li>
+                    <li class="menu-contact">
+                        <a href="contact.html">Contactez-moi !</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <section class="presentation">
+                <div class="sec">
+                    <h1>À propos de moi</h1>
+                </div>
+                <div class="gauche">
+                    <img src="Image/personne2.webp">
+                </div>
+                <div class="droite">
+                    <p>Bonjour, Je m'appelle Nasser Diogo Caetano Hodroj, je suis agé de 24 ans et étudiant à l'EPFC.</p>
+                    <p>Je suis actuellement en Bachelier informatique en première année</p>
+                </div>
+            </section>
+            <section class="parcours">
+                <h1>Parcours et expériences</h1>
+                <div class="sec">
+                    <h2>Experience professionnelles</h2>
+                    <div class="exp">
+                        <div class="gauche">
+                            <h3>2019-2021</h3>
+                        </div>
+                        <div class="droite">
+                            <h3>Inventoriste</h3>
+                            <p>Inventoriste Chez la société RGIS</p>
+                        </div>
+                        <div class="gauche">
+                            <h3>2021-2022</h3>
+                        </div>
+                        <div class="droite">
+                            <h3>Collaborateur de trie</h3>
+                            <p>Collaborateur de trie chez bpost trie de colis et lettres</p>
+                        </div>
+                    </div>
+                    <h2>Parcours scolaire</h2>
+                    <div class="exp">
+                        <div class="gauche">
+                            <h3>2013-2017</h3>
+                        </div>
+                        <div class="droite">
+                            <h3>Étudiant secondaire - ARWSL</h3>
+                            <p>Étudiant en option scientifique à l'Athénée Royale De Woluwe Saint Lambert</p>
+                        </div>
+                        <div class="gauche">
+                            <h3>2017-2019</h3>
+                        </div>
+                        <div class="droite">
+                            <h3>Étudiant secondaire - IEJ</h3>
+                            <p>Étudiant en option science-économique à l'Institut Enfant Jésus</p>
+                        </div>
+                </div>
+            </section>
+            <section  class="competence">
+                <h1>Compétence et niveau</h1>
+                <div class="sec">
+                    <div class="comp-gauche">
+                        <div class="sous">
+                            <div class="sous-gauche"><h3>Compétence</h3></div>
+                            <div class="sous-droite"><h3>Niveaux</h3></div>
+                        </div>
+                        <div class="sous">
+                            <div class="sous-gauche"><p>HTML / CSS</p></div>
+                            <div class="sous-droite"><p>NOVICE</p></div>
+                        </div>
+                        <div class="sous">
+                            <div class="sous-gauche"><p>Java Intermediaire</p></div>
+                            <div class="sous-droite"><p>INTERMÉDIAIRE</p></div>
+                        </div>
+    
+                    </div>
+                    <div class="comp-droite">
+                        <div class="sous">
+                            <div class="sous-gauche"><h3>Compétence</h3></div>
+                            <div class="sous-droite"><h3>Niveaux</h3></div>
+                        </div>
+                        <div class="sous">
+                            <div class="sous-gauche"><p>JavaScript</p></div>
+                            <div class="sous-droite"><p>NOVICE</p></div>
+                        </div>
+                        <div class="sous">
+                            <div class="sous-gauche"><p>SQL</p></div>
+                            <div class="sous-droite"><p>INTERMÉDIAIRE</p></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="recommendation ">
+                <div class="sec">
+                    <div class="reco">
+                        
+                    </div>
+                </div>
+                
+            </section>
+        </article>
+        <footer>
+            <p>Copyright 2025 Nasser Diogo Caetano - Fin de Page</p>
+        </footer>
+    </body>
+</html>
