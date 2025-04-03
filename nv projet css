@@ -1,0 +1,94 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align:center;
+}
+
+header{
+    height: 100px;
+}
+
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #C5C5C5;
+    border-top: 2px solid #AAA
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type:none ;
+    float: left;
+}
+
+nav{
+    background-color:#4c235c;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menu{
+    display:table;
+    margin: 0 auto;
+}
+
+.menu-accueil:hover{
+    border-top: 5px solid rgb(8, 73, 117);
+    background-color: rgb(68, 195, 204);
+}
+
+.menu-exp:hover{
+    border-top: 5px solid rgb(4, 100, 41);
+    background-color: rgb(68, 204, 125);
+}
+
+.menu-loisir:hover{
+    border-top: 5px solid rgb(71, 2, 2);
+    background-color: rgba(204, 88, 68, 0.644);
+}
+
+.menu-contact:hover{
+    border-top:  5px solid rgb(67, 67, 68);
+    background-color: rgb(114, 118, 119);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+@media screen and(max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px;
+    }
+    nav li a{
+        font-size:12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
